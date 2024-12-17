@@ -25,12 +25,3 @@
   <img src="https://skillicons.dev/icons?i=bash" height="40" alt="bash logo"  />
 </div>
 
-###
-
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/Thailee2710/Thailee2710/output/snake.svg" alt="Snake animation" />
-
-![Snake animation]([https://path-to-your-snake-animation.gif](https://raw.githubusercontent.com/Thailee2710/Thailee2710/output/snake.svg))
-
-###

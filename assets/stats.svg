@@ -1,11 +1,32 @@
-<svg width="520" height="180" viewBox="0 0 520 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub profile stats">
-  <rect x="0.5" y="0.5" width="519" height="179" rx="10" fill="#282a36" stroke="#44475a"/>
-  <text x="20" y="34" fill="#ff79c6" font-family="Segoe UI, Ubuntu, Arial, sans-serif" font-size="18" font-weight="700">Thailee2710&#x27;s GitHub Stats</text>
-  <text x="22" y="70" fill="#f8f8f2" font-family="Segoe UI, Ubuntu, Arial, sans-serif" font-size="14" font-weight="400">📦 Public repos: 6</text>
-  <text x="22" y="100" fill="#f8f8f2" font-family="Segoe UI, Ubuntu, Arial, sans-serif" font-size="14" font-weight="400">⭐ Stars earned: 3</text>
-  <text x="22" y="130" fill="#f8f8f2" font-family="Segoe UI, Ubuntu, Arial, sans-serif" font-size="14" font-weight="400">⑂ Forks: 1</text>
-  <text x="210" y="70" fill="#f8f8f2" font-family="Segoe UI, Ubuntu, Arial, sans-serif" font-size="14" font-weight="400">💻 Top language: Python</text>
-  <text x="210" y="100" fill="#50fa7b" font-family="Segoe UI, Ubuntu, Arial, sans-serif" font-size="14" font-weight="600">🛡 Security Auditor</text>
-  <text x="210" y="130" fill="#8be9fd" font-family="Segoe UI, Ubuntu, Arial, sans-serif" font-size="14" font-weight="400">⚡ FastAPI · Docker · Git</text>
-  <text x="22" y="162" fill="#bd93f9" font-family="Segoe UI, Ubuntu, Arial, sans-serif" font-size="11" font-weight="400">Updated: 2026-06-03 07:15 UTC</text>
+<svg width="520" height="180" viewBox="0 0 520 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Thailee2710 GitHub profile stats">
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="520" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0D1117"/>
+      <stop offset="1" stop-color="#161B22"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="18" y1="0" x2="502" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#58A6FF"/>
+      <stop offset="0.55" stop-color="#BC8CFF"/>
+      <stop offset="1" stop-color="#3FB950"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="519" height="179" rx="16" fill="url(#cardBg)" stroke="#30363D"/>
+  <rect x="18" y="14" width="484" height="3" rx="1.5" fill="url(#accentLine)" opacity="0.95"/>
+  <text x="24" y="44" fill="#E6EDF3" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="800" text-anchor="start" opacity="1.0">Thailee2710</text>
+  <text x="24" y="65" fill="#8B949E" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="500" text-anchor="start" opacity="1.0">GitHub profile overview</text>
+  <text x="340" y="43" fill="#58A6FF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="800" text-anchor="start" opacity="1.0">Security Auditor</text>
+  <text x="340" y="64" fill="#C9D1D9" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="500" text-anchor="start" opacity="1.0">Top language: Python</text>
+  <rect x="24" y="82" width="142" height="72" rx="12" fill="#1B2430" stroke="#21262D"/>
+  <circle cx="42" cy="104" r="5" fill="#58A6FF"/>
+  <text x="56" y="108" fill="#8B949E" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="start" opacity="1.0">Repositories</text>
+  <text x="40" y="138" fill="#E6EDF3" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="23" font-weight="800" text-anchor="start" opacity="1.0">6</text>
+  <rect x="182" y="82" width="142" height="72" rx="12" fill="#1B2430" stroke="#21262D"/>
+  <circle cx="200" cy="104" r="5" fill="#D29922"/>
+  <text x="214" y="108" fill="#8B949E" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="start" opacity="1.0">Stars</text>
+  <text x="198" y="138" fill="#E6EDF3" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="23" font-weight="800" text-anchor="start" opacity="1.0">3</text>
+  <rect x="340" y="82" width="142" height="72" rx="12" fill="#1B2430" stroke="#21262D"/>
+  <circle cx="358" cy="104" r="5" fill="#3FB950"/>
+  <text x="372" y="108" fill="#8B949E" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="start" opacity="1.0">Forks</text>
+  <text x="356" y="138" fill="#E6EDF3" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="23" font-weight="800" text-anchor="start" opacity="1.0">1</text>
+  <text x="24" y="168" fill="#8B949E" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="500" text-anchor="start" opacity="1.0">Updated 2026-06-03 07:21 UTC</text>
 </svg>

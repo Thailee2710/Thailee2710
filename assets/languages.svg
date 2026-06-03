@@ -1,22 +1,43 @@
-<svg width="340" height="210" viewBox="0 0 340 210" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub profile stats">
-  <rect x="0.5" y="0.5" width="339" height="209" rx="10" fill="#282a36" stroke="#44475a"/>
-  <text x="20" y="34" fill="#ff79c6" font-family="Segoe UI, Ubuntu, Arial, sans-serif" font-size="18" font-weight="700">Most Used Languages</text>
-  <rect x="20" y="48" width="163" height="10" rx="5" fill="#3572A5"/>
-  <rect x="183" y="48" width="44" height="10" rx="5" fill="#e34c26"/>
-  <rect x="227" y="48" width="34" height="10" rx="5" fill="#89e051"/>
-  <rect x="261" y="48" width="34" height="10" rx="5" fill="#563d7c"/>
-  <rect x="295" y="48" width="2" height="10" rx="5" fill="#ffb86c"/>
-  <rect x="297" y="48" width="2" height="10" rx="5" fill="#384d54"/>
-  <circle cx="25" cy="64" r="5" fill="#3572A5"/>
-  <text x="38" y="68" fill="#f8f8f2" font-family="Segoe UI, Ubuntu, Arial, sans-serif" font-size="13" font-weight="400">Python 58.4%</text>
-  <circle cx="25" cy="90" r="5" fill="#e34c26"/>
-  <text x="38" y="94" fill="#f8f8f2" font-family="Segoe UI, Ubuntu, Arial, sans-serif" font-size="13" font-weight="400">HTML 16.0%</text>
-  <circle cx="25" cy="116" r="5" fill="#89e051"/>
-  <text x="38" y="120" fill="#f8f8f2" font-family="Segoe UI, Ubuntu, Arial, sans-serif" font-size="13" font-weight="400">Shell 12.5%</text>
-  <circle cx="25" cy="142" r="5" fill="#563d7c"/>
-  <text x="38" y="146" fill="#f8f8f2" font-family="Segoe UI, Ubuntu, Arial, sans-serif" font-size="13" font-weight="400">CSS 12.4%</text>
-  <circle cx="25" cy="168" r="5" fill="#ffb86c"/>
-  <text x="38" y="172" fill="#f8f8f2" font-family="Segoe UI, Ubuntu, Arial, sans-serif" font-size="13" font-weight="400">Ruby 0.6%</text>
-  <circle cx="25" cy="194" r="5" fill="#384d54"/>
-  <text x="38" y="198" fill="#f8f8f2" font-family="Segoe UI, Ubuntu, Arial, sans-serif" font-size="13" font-weight="400">Dockerfile 0.2%</text>
+<svg width="430" height="180" viewBox="0 0 430 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Most used languages">
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="430" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0D1117"/>
+      <stop offset="1" stop-color="#161B22"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="18" y1="0" x2="412" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#58A6FF"/>
+      <stop offset="0.55" stop-color="#BC8CFF"/>
+      <stop offset="1" stop-color="#3FB950"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="429" height="179" rx="16" fill="url(#cardBg)" stroke="#30363D"/>
+  <rect x="18" y="14" width="394" height="3" rx="1.5" fill="url(#accentLine)" opacity="0.95"/>
+  <text x="24" y="44" fill="#E6EDF3" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="800" text-anchor="start" opacity="1.0">Most Used Languages</text>
+  <text x="24" y="64" fill="#8B949E" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="500" text-anchor="start" opacity="1.0">Repository language distribution</text>
+  <rect x="24" y="82" width="382" height="12" rx="6" fill="#21262D"/>
+  <clipPath id="langBarClip"><rect x="24" y="82" width="382" height="12" rx="6"/></clipPath>
+  <rect x="24" y="82" width="220" height="12" fill="#3572A5" clip-path="url(#langBarClip)"/>
+  <rect x="244" y="82" width="61" height="12" fill="#E34C26" clip-path="url(#langBarClip)"/>
+  <rect x="305" y="82" width="48" height="12" fill="#89E051" clip-path="url(#langBarClip)"/>
+  <rect x="353" y="82" width="47" height="12" fill="#563D7C" clip-path="url(#langBarClip)"/>
+  <rect x="400" y="82" width="3" height="12" fill="#701516" clip-path="url(#langBarClip)"/>
+  <rect x="403" y="82" width="3" height="12" fill="#384D54" clip-path="url(#langBarClip)"/>
+  <circle cx="29" cy="117" r="4" fill="#3572A5"/>
+  <text x="40" y="121" fill="#C9D1D9" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="650" text-anchor="start" opacity="1.0">Python</text>
+  <text x="190" y="121" fill="#8B949E" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="end" opacity="1.0">58.4%</text>
+  <circle cx="237" cy="117" r="4" fill="#E34C26"/>
+  <text x="248" y="121" fill="#C9D1D9" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="650" text-anchor="start" opacity="1.0">HTML</text>
+  <text x="398" y="121" fill="#8B949E" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="end" opacity="1.0">16.0%</text>
+  <circle cx="29" cy="141" r="4" fill="#89E051"/>
+  <text x="40" y="145" fill="#C9D1D9" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="650" text-anchor="start" opacity="1.0">Shell</text>
+  <text x="190" y="145" fill="#8B949E" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="end" opacity="1.0">12.5%</text>
+  <circle cx="237" cy="141" r="4" fill="#563D7C"/>
+  <text x="248" y="145" fill="#C9D1D9" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="650" text-anchor="start" opacity="1.0">CSS</text>
+  <text x="398" y="145" fill="#8B949E" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="end" opacity="1.0">12.4%</text>
+  <circle cx="29" cy="165" r="4" fill="#701516"/>
+  <text x="40" y="169" fill="#C9D1D9" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="650" text-anchor="start" opacity="1.0">Ruby</text>
+  <text x="190" y="169" fill="#8B949E" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="end" opacity="1.0">0.6%</text>
+  <circle cx="237" cy="165" r="4" fill="#384D54"/>
+  <text x="248" y="169" fill="#C9D1D9" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="650" text-anchor="start" opacity="1.0">Dockerfile</text>
+  <text x="398" y="169" fill="#8B949E" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="end" opacity="1.0">0.2%</text>
 </svg>

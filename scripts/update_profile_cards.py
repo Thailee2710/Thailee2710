@@ -23,15 +23,15 @@ ASSETS = ROOT / "assets"
 API = "https://api.github.com"
 
 THEME = {
-    "bg": "#282a36",
-    "border": "#44475a",
-    "title": "#ff79c6",
-    "text": "#f8f8f2",
-    "muted": "#bd93f9",
-    "accent": "#50fa7b",
-    "orange": "#ffb86c",
-    "cyan": "#8be9fd",
-    "red": "#ff5555",
+    "bg": "#0d1117",
+    "border": "#30363d",
+    "title": "#58a6ff",
+    "text": "#e6edf3",
+    "muted": "#8b949e",
+    "accent": "#3fb950",
+    "orange": "#d29922",
+    "cyan": "#39c5cf",
+    "red": "#f85149",
 }
 
 LANG_COLORS = {
@@ -119,13 +119,13 @@ def stats_svg(repos: list[dict[str, Any]], langs: Counter[str]) -> str:
     top_lang = langs.most_common(1)[0][0] if langs else "N/A"
     body = "\n  ".join(
         [
-            text(20, 34, f"{USERNAME}'s GitHub Stats", size=18, color=THEME["title"], weight=700),
-            text(22, 70, f"📦 Public repos: {len(repos)}", size=14),
-            text(22, 100, f"⭐ Stars earned: {total_stars}", size=14),
-            text(22, 130, f"⑂ Forks: {total_forks}", size=14),
-            text(210, 70, f"💻 Top language: {top_lang}", size=14),
-            text(210, 100, "🛡 Security Auditor", size=14, color=THEME["accent"], weight=600),
-            text(210, 130, "⚡ FastAPI · Docker · Git", size=14, color=THEME["cyan"]),
+            text(20, 34, f"{USERNAME}'s GitHub Activity", size=18, color=THEME["title"], weight=700),
+            text(22, 70, f"Public repos: {len(repos)}", size=14),
+            text(22, 100, f"Stars earned: {total_stars}", size=14),
+            text(22, 130, f"Forks: {total_forks}", size=14),
+            text(210, 70, f"Top language: {top_lang}", size=14),
+            text(210, 100, "Security Auditor", size=14, color=THEME["accent"], weight=600),
+            text(210, 130, "Python · Docker · Git · Linux", size=14, color=THEME["cyan"]),
             text(22, 162, f"Updated: {updated}", size=11, color=THEME["muted"]),
         ]
     )
